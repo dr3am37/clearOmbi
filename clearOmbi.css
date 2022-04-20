@@ -33,6 +33,13 @@ box-sizing: border-box;
 
 
 /* Nav Bar */
+.sidenav-container .sidenav .mat-toolbar.application-name {
+    content: url("https://i.imgur.com/mBh7whU.png"); 
+}
+button#sign-in{
+   display:none;
+}
+ 
 .ombi-card .card-top-info{
 background-color:transparent !important;
 padding-bottom: .8em;
@@ -126,6 +133,9 @@ border-radius: 20px;
     color: #ff6666;
 }
  
+.profile-img{
+    display: none !important;
+}
  
 .keyword-button-container{
 display: none !important;
