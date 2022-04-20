@@ -2,7 +2,7 @@
 .mat-drawer-backdrop.mat-drawer-shown {
     background-color: #000000eb !important;
 }
- 
+
 hr {
     border-top: 1px solid #62d2fa2e;
 }
@@ -28,7 +28,7 @@ box-sizing: border-box;
     height: 100%;
     content: url(https://i.imgur.com/PxJJb9d.png) !important;
     opacity: 0.8 !important;
- 
+
 }
 
 
@@ -39,7 +39,7 @@ box-sizing: border-box;
 button#sign-in{
    display:none;
 }
- 
+
 .ombi-card .card-top-info{
 background-color:transparent !important;
 padding-bottom: .8em;
@@ -50,7 +50,7 @@ padding-top: .82em !important;
 .ombi-card .card-top-info .top-right .indicator{
 margin-right: 3px !important;
 }
- 
+
 .top-left{
 text-shadow: 0 0 0px black;
 background-color: #0d25ff00;
@@ -59,13 +59,13 @@ color: #dce9ff !important;
 font-weight: 400 !important;
 font-size: 10px !important;
     font-family: 'Font Awesome 6 Brands';
- 
+
 }
- 
+
 .ombi-card .card-top-info .indicator-text{
 display:none;
 }
- 
+
 .top-right .indicator:before {
     width: 15px !important;
     height: 15px !important;
@@ -88,13 +88,13 @@ font-size: medium;
     box-shadow: 0 0 19px #c99ef129 !important;
 border-radius: 15px !important;
 }
- 
+
 #info-wrapper .sidebar .poster {
     border: solid 1px #1b242f2b !important;
     box-shadow: 0 0 20px #1b242fab !important;
     border-radius: 20px;
 }
- 
+
 .real{
 border-radius: 20px;
 }
@@ -102,12 +102,12 @@ border-radius: 20px;
     background-color: hsl(0deg 0% 0% / 0%)!important;
     backdrop-filter: none!important;
 }
- 
+
 #summary-wrapper, .summary-wrapper {
     background-color: #0000!important;
     -webkit-mask-image: linear-gradient(180deg, transparent, black, transparent)!important;
 }
- 
+
 #info-wrapper .mat-card, .mat-expansion-panel {
     background: transparent !important;
     backdrop-filter: blur(1px) !important;
@@ -116,36 +116,36 @@ border-radius: 20px;
 .p-carousel-indicators {
     display: none !important;
 }
- 
+
 .cast-profile-img {
     width: 100px !important;
     max-height: 100px !important;
- 
+
 }
- 
+
 #summary-wrapper, .summary-wrapper {
- 
+
     height: 700px !important;
- 
+
 }
 .fa-dollar-sign:before {
     content: "$";
     color: #ff6666;
 }
- 
+
 .profile-img{
     display: none !important;
 }
- 
+
 .keyword-button-container{
 display: none !important;
 }
- 
+
 .main-content-container {
     position: relative;
     top: -104px;
 }
- 
+
 #info-wrapper {
     margin-top: -15% !important;
 }
@@ -157,7 +157,7 @@ display: none !important;
     right: 0px!important;
 }
  */
- 
+
  .tagline {
     margin-top: 10px!important;
     margin-left: 1px!important;
@@ -185,47 +185,65 @@ display: none !important;
     background: #0f171f00 !important;
     padding-top: 0em !important;
 }
- 
+
 .top-search-bar .mat-form-field-flex {
     border: 1px solid #35465c;
     border-radius: 30px;
     color: #f0f8ff9e !important;
     background-color: #1b242fa3 !important;
 }
- 
- 
+
+
 .sidenav-container .sidenav .active-list-item {
- 
+
     border-radius: 0 0px 0px 0 !important;
- 
+
 }
- 
 
- 
- 
- 
- 
- 
+.btn-ombi {
+    background-color: rgb(29 233 182) !important;
+    /* border-radius: 10px; */
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    -webkit-mask-image: linear-gradient(0deg, black,black, transparent) !important;
+    height: 109% !important;
+}
 
- 
- 
- 
- 
+.ombi-card .button-request-container {
 
-
- 
-
- 
- 
-
- 
- 
- 
-
- 
+    margin: -50px 0 0 !important;
+    height: 46px;
+}
 
 
- 
+.p-component, .p-component * {
+    vertical-align: text-top !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -242,26 +260,7 @@ display: none !important;
 
 /*                          Shared across all pages Content                       */
 
-/* Adjusting request buttons color and design, height and text alignment */
-.btn-ombi {
-    background-color: rgb(29 233 182) !important;
-    /* border-radius: 10px; */
-    border-bottom-right-radius: 15px !important;
-    border-bottom-left-radius: 15px !important;
-    -webkit-mask-image: linear-gradient(0deg, black,black, transparent) !important;
-    height: 109% !important;
-}
- 
-.ombi-card .button-request-container {
- 
-    margin: -50px 0 0 !important;
-    height: 46px;
-}
- 
- 
-.p-component, .p-component * {
-    vertical-align: text-top !important;
-}
+
 
 
 
@@ -313,16 +312,16 @@ display: none !important;
         padding-right: 8px;
     }
     }
-    
+
 @media (min-width: 500px){
     .p-carousel-item {
         flex: 1 0 120px!important;
         padding-right: 8px;
     }
     }
-    
-    
-    
+
+
+
 /* background color to cascading request menu */
 div[class*="mat-menu-panel ng-trigger ng-trigger-transformMenu"] {
     background-color: #0f171f!important;
@@ -357,7 +356,7 @@ div[class*="p-carousel-items-content"]{
     }
 /* Tigthen the carousel flex for less spacing */
 
-    
+
 
 /* Make the cards smaller !!!!! this has an effect on the search results that also have the card class */
 .ombi-card{
@@ -418,7 +417,7 @@ I[class*="fa-cloud-download-alt"]{
 .mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
     background-color: #62d2fa !important;
 }
- 
+
 button[id*="reportIssueBtn"] {
 background-color: darksalmon;
 }
@@ -428,12 +427,12 @@ background-color: #58c8f0 !important;
 button[id*="requestedBtn"] {
 background-color: #e8c964 !important;
 }
-    
+
 button[id*="markAvailableBtn"] {
 color: #ffffff !important;
 background-color: #6adaab !important;
 }
-    
+
 button[id*="markUnavailableBtn"] {
 color: #ffffff !important;
 background-color: #f44336!important;
@@ -441,4 +440,4 @@ background-color: #f44336!important;
 button[id*="markUnavailable4kBtn"] {
 color: #ffffff !important;
 background-color: #f44336!important;
-}
+} 
