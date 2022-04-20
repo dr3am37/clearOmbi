@@ -33,8 +33,6 @@ box-sizing: border-box;
 
 
 /* Nav Bar */
-
- 
 .ombi-card .card-top-info{
 background-color:transparent !important;
 padding-bottom: .8em;
@@ -128,9 +126,6 @@ border-radius: 20px;
     color: #ff6666;
 }
  
-.profile-img{
-    display: none !important;
-}
  
 .keyword-button-container{
 display: none !important;
@@ -153,16 +148,47 @@ display: none !important;
 }
  */
  
-
+ .tagline {
+    margin-top: 10px!important;
+    margin-left: 1px!important;
+    margin-bottom: 0px!important;
+}
+ @media (min-width: 571px){
+ .title-top-banner {
+     top: 50%!important;
+    }
+}
+ @media (max-width: 570px){
+.mobile-top-text {
+    padding-top: 200px;
+}
+ }
+.social-icons-container {
+    top: 95px !important;
+}
 /*
 .mobile-top-text {
     padding-top: 250px;
 }
 */
-
+.content-container .top-bar-container {
+    background: #0f171f00 !important;
+    padding-top: 0em !important;
+}
+ 
+.top-search-bar .mat-form-field-flex {
+    border: 1px solid #35465c;
+    border-radius: 30px;
+    color: #f0f8ff9e !important;
+    background-color: #1b242fa3 !important;
+}
  
  
-
+.sidenav-container .sidenav .active-list-item {
+ 
+    border-radius: 0 0px 0px 0 !important;
+ 
+}
  
 
  
@@ -205,27 +231,6 @@ display: none !important;
 
 
 /*                          Shared across all pages Content                       */
-
-/* Search box adjustments, background color, padding, radius and more */
-.content-container .top-bar-container {
-    background: #0f171f00 !important;
-    padding-top: 0em !important;
-}
- 
-.top-search-bar .mat-form-field-flex {
-    border: 1px solid #35465c;
-    border-radius: 30px;
-    color: #f0f8ff9e !important;
-    background-color: #1b242fa3 !important;
-}
-
-/* Side nav active menu choice, removing radius */
-.sidenav-container .sidenav .active-list-item {
- 
-    border-radius: 0 0px 0px 0 !important;
- 
-}
-
 
 /* Adjusting request buttons color and design, height and text alignment */
 .btn-ombi {
@@ -378,27 +383,8 @@ div[class*="row full-height discoverResults col ng-star-inserted"] {
 
 
 
-/* Title changes for better device compatability */
-.tagline {
-    margin-top: 10px!important;
-    margin-left: 1px!important;
-    margin-bottom: 0px!important;
-}
- @media (min-width: 571px){
- .title-top-banner {
-     top: 50%!important;
-    }
-}
- @media (max-width: 570px){
-.mobile-top-text {
-    padding-top: 200px;
-}
- }
 
- /* Soical icons placement */
-.social-icons-container {
-    top: 95px !important;
-}
+
 
 
 /* Remove margin from admin options */
