@@ -33,12 +33,7 @@ box-sizing: border-box;
 
 
 /* Nav Bar */
-.sidenav-container .sidenav .mat-toolbar.application-name {
-    content: url("https://i.imgur.com/mBh7whU.png"); 
-}
-button#sign-in{
-   display:none;
-}
+
  
 .ombi-card .card-top-info{
 background-color:transparent !important;
@@ -158,67 +153,18 @@ display: none !important;
 }
  */
  
- .tagline {
-    margin-top: 10px!important;
-    margin-left: 1px!important;
-    margin-bottom: 0px!important;
-}
- @media (min-width: 571px){
- .title-top-banner {
-     top: 50%!important;
-    }
-}
- @media (max-width: 570px){
-.mobile-top-text {
-    padding-top: 200px;
-}
- }
-.social-icons-container {
-    top: 95px !important;
-}
+
 /*
 .mobile-top-text {
     padding-top: 250px;
 }
 */
-.content-container .top-bar-container {
-    background: #0f171f00 !important;
-    padding-top: 0em !important;
-}
- 
-.top-search-bar .mat-form-field-flex {
-    border: 1px solid #35465c;
-    border-radius: 30px;
-    color: #f0f8ff9e !important;
-    background-color: #1b242fa3 !important;
-}
+
  
  
-.sidenav-container .sidenav .active-list-item {
+
  
-    border-radius: 0 0px 0px 0 !important;
- 
-}
- 
-.btn-ombi {
-    background-color: rgb(29 233 182) !important;
-    /* border-radius: 10px; */
-    border-bottom-right-radius: 15px !important;
-    border-bottom-left-radius: 15px !important;
-    -webkit-mask-image: linear-gradient(0deg, black,black, transparent) !important;
-    height: 109% !important;
-}
- 
-.ombi-card .button-request-container {
- 
-    margin: -50px 0 0 !important;
-    height: 46px;
-}
- 
- 
-.p-component, .p-component * {
-    vertical-align: text-top !important;
-}
+
  
  
  
@@ -260,7 +206,47 @@ display: none !important;
 
 /*                          Shared across all pages Content                       */
 
+/* Search box adjustments, background color, padding, radius and more */
+.content-container .top-bar-container {
+    background: #0f171f00 !important;
+    padding-top: 0em !important;
+}
+ 
+.top-search-bar .mat-form-field-flex {
+    border: 1px solid #35465c;
+    border-radius: 30px;
+    color: #f0f8ff9e !important;
+    background-color: #1b242fa3 !important;
+}
 
+/* Side nav active menu choice, removing radius */
+.sidenav-container .sidenav .active-list-item {
+ 
+    border-radius: 0 0px 0px 0 !important;
+ 
+}
+
+
+/* Adjusting request buttons color and design, height and text alignment */
+.btn-ombi {
+    background-color: rgb(29 233 182) !important;
+    /* border-radius: 10px; */
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    -webkit-mask-image: linear-gradient(0deg, black,black, transparent) !important;
+    height: 109% !important;
+}
+ 
+.ombi-card .button-request-container {
+ 
+    margin: -50px 0 0 !important;
+    height: 46px;
+}
+ 
+ 
+.p-component, .p-component * {
+    vertical-align: text-top !important;
+}
 
 
 
@@ -392,8 +378,27 @@ div[class*="row full-height discoverResults col ng-star-inserted"] {
 
 
 
+/* Title changes for better device compatability */
+.tagline {
+    margin-top: 10px!important;
+    margin-left: 1px!important;
+    margin-bottom: 0px!important;
+}
+ @media (min-width: 571px){
+ .title-top-banner {
+     top: 50%!important;
+    }
+}
+ @media (max-width: 570px){
+.mobile-top-text {
+    padding-top: 200px;
+}
+ }
 
-
+ /* Soical icons placement */
+.social-icons-container {
+    top: 95px !important;
+}
 
 
 /* Remove margin from admin options */
