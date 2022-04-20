@@ -1,0 +1,443 @@
+
+.mat-drawer-backdrop.mat-drawer-shown {
+    background-color: #000000eb !important;
+}
+ 
+hr {
+    border-top: 1px solid #62d2fa2e;
+}
+
+.mat-sidenav-container {
+    background: linear-gradient(152deg, #1a232e, #020304)!important;
+}
+.sidenav-container .sidenav {
+    background: transparent!important;
+}
+.content-container{
+    background: transparent!important;
+}
+ img[src*="null"] {
+box-sizing: border-box;
+    width: 248px !important;
+    height: 368px !important;
+    color: transparent !important;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: url(https://i.imgur.com/PxJJb9d.png) !important;
+    opacity: 0.8 !important;
+ 
+}
+
+
+/* Nav Bar */
+.sidenav-container .sidenav .mat-toolbar.application-name {
+    content: url("https://i.imgur.com/mBh7whU.png"); 
+}
+button#sign-in{
+   display:none;
+}
+ 
+.ombi-card .card-top-info{
+background-color:transparent !important;
+padding-bottom: .8em;
+padding-top: .82em !important;
+
+-webkit-mask-image: linear-gradient(black 50%,transparent 90%);
+} 
+.ombi-card .card-top-info .top-right .indicator{
+margin-right: 3px !important;
+}
+ 
+.top-left{
+text-shadow: 0 0 0px black;
+background-color: #0d25ff00;
+margin-inline-start: 5px;
+color: #dce9ff !important;
+font-weight: 400 !important;
+font-size: 10px !important;
+    font-family: 'Font Awesome 6 Brands';
+ 
+}
+ 
+.ombi-card .card-top-info .indicator-text{
+display:none;
+}
+ 
+.top-right .indicator:before {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 25px !important;
+}
+ .top-right.available span.indicator:before{
+    box-shadow: 0 0 9px 2px #0000007d !important;
+}
+ .top-right.approved span.indicator:before{
+    box-shadow: 0 0 9px 2px #0000007d !important;
+}
+.discover-filter-buttons-group .button-active {
+    background: rgb(98 210 250)!important;
+    -webkit-text-fill-color: #161d26;
+font-size: medium;
+}
+.image{
+        -webkit-mask-image: linear-gradient(transparent 0%, black 15%, black ,black);
+    border: solid 1px #a68af95c !important;
+    box-shadow: 0 0 19px #c99ef129 !important;
+border-radius: 15px !important;
+}
+ 
+#info-wrapper .sidebar .poster {
+    border: solid 1px #1b242f2b !important;
+    box-shadow: 0 0 20px #1b242fab !important;
+    border-radius: 20px;
+}
+ 
+.real{
+border-radius: 20px;
+}
+.social-icons-container {
+    background-color: hsl(0deg 0% 0% / 0%)!important;
+    backdrop-filter: none!important;
+}
+ 
+#summary-wrapper, .summary-wrapper {
+    background-color: #0000!important;
+    -webkit-mask-image: linear-gradient(180deg, transparent, black, transparent)!important;
+}
+ 
+#info-wrapper .mat-card, .mat-expansion-panel {
+    background: transparent !important;
+    backdrop-filter: blur(1px) !important;
+    border-radius: 15px;
+}
+.p-carousel-indicators {
+    display: none !important;
+}
+ 
+.cast-profile-img {
+    width: 100px !important;
+    max-height: 100px !important;
+ 
+}
+ 
+#summary-wrapper, .summary-wrapper {
+ 
+    height: 700px !important;
+ 
+}
+.fa-dollar-sign:before {
+    content: "$";
+    color: #ff6666;
+}
+ 
+.profile-img{
+    display: none !important;
+}
+ 
+.keyword-button-container{
+display: none !important;
+}
+ 
+.main-content-container {
+    position: relative;
+    top: -104px;
+}
+ 
+#info-wrapper {
+    margin-top: -15% !important;
+}
+/* 
+#summary-wrapper .summary .container, .summary-wrapper .summary .container {
+    position: absolute;
+    bottom: 242px !important;
+    left: 22px!important;
+    right: 0px!important;
+}
+ */
+ 
+ .tagline {
+    margin-top: 10px!important;
+    margin-left: 1px!important;
+    margin-bottom: 0px!important;
+}
+ @media (min-width: 571px){
+ .title-top-banner {
+     top: 50%!important;
+    }
+}
+ @media (max-width: 570px){
+.mobile-top-text {
+    padding-top: 200px;
+}
+ }
+.social-icons-container {
+    top: 95px !important;
+}
+/*
+.mobile-top-text {
+    padding-top: 250px;
+}
+*/
+.content-container .top-bar-container {
+    background: #0f171f00 !important;
+    padding-top: 0em !important;
+}
+ 
+.top-search-bar .mat-form-field-flex {
+    border: 1px solid #35465c;
+    border-radius: 30px;
+    color: #f0f8ff9e !important;
+    background-color: #1b242fa3 !important;
+}
+ 
+ 
+.sidenav-container .sidenav .active-list-item {
+ 
+    border-radius: 0 0px 0px 0 !important;
+ 
+}
+ 
+.btn-ombi {
+    background-color: rgb(29 233 182) !important;
+    /* border-radius: 10px; */
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    -webkit-mask-image: linear-gradient(0deg, black,black, transparent) !important;
+    height: 109% !important;
+}
+ 
+.ombi-card .button-request-container {
+ 
+    margin: -50px 0 0 !important;
+    height: 46px;
+}
+ 
+ 
+.p-component, .p-component * {
+    vertical-align: text-top !important;
+}
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                          Shared across all pages Content                       */
+
+
+
+
+
+/* Adjusting side nav width to fix overlap with section */
+.sidenav {
+    width: 223px !important;
+}
+
+/* Color setting for the selected menu button */
+.mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
+    background-color: #62d2fa !important; 
+}
+
+/* small margin for section */
+.section {
+    margin: 5px !important;
+}
+/* Change filter icon to cogs */
+.fa-filter:before {
+    content: "\f085"!important;
+}
+
+/* move filter icon more to the center of the button */
+.advanced-search{
+    margin-top: 9% !important;
+    margin-right: 9% !important;
+}
+
+
+
+
+/*                          Discovery page Content                       */
+
+/* fading out description text */
+.ellipsis {
+    -webkit-mask-image: linear-gradient(180deg, black 60%, transparent 90%);
+}
+
+/* flex adaptations to nav arrows when changing to another device */
+@media (max-width: 755px){
+.p-carousel .p-carousel-content .p-carousel-prev, .p-carousel .p-carousel-content .p-carousel-next {
+    max-inline-size: fit-content;
+}
+}
+/* flex adaptations when changing to another device */
+@media (min-width: 300px){
+    .p-carousel-item {
+        flex: 1 0 100px!important;
+        padding-right: 8px;
+    }
+    }
+    
+@media (min-width: 500px){
+    .p-carousel-item {
+        flex: 1 0 120px!important;
+        padding-right: 8px;
+    }
+    }
+    
+    
+    
+/* background color to cascading request menu */
+div[class*="mat-menu-panel ng-trigger ng-trigger-transformMenu"] {
+    background-color: #0f171f!important;
+    }
+
+/* Smaller middle container width */
+.small-middle-container {
+    width: 98%!important;
+}
+
+/* Change margins for the h2 headers, !!!!! might effect other h2 headers negatively */
+h2 {
+    margin-top: 20px!important;
+    margin-left: 20px!important;
+    margin-bottom: 42px!important;
+}
+
+
+/* Raise the discovery carosuel options */
+.mat-button-toggle-standalone, .mat-button-toggle-group {
+    top: -8px !important;
+}
+/* Raise the text in the discovery carosuel options */
+.discover-filter-buttons-group .mat-button-toggle-appearance-standard .mat-button-toggle-label-content {
+    line-height: 20px !important;
+}
+
+
+/* Fade out the carousel to the right side */
+div[class*="p-carousel-items-content"]{
+    -webkit-mask-box-image: linear-gradient(90deg,black,black 85%,transparent);
+    }
+/* Tigthen the carousel flex for less spacing */
+
+    
+
+/* Make the cards smaller !!!!! this has an effect on the search results that also have the card class */
+.ombi-card{
+    max-width: 180px !important;
+    max-height: 280px!important;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+
+
+
+/*                                    Search Results                             */
+/* add a margin between the results and the sidebar */
+
+div[class*="row full-height discoverResults col ng-star-inserted"] {
+    margin-left: 1.5%;;
+    }
+
+
+/* Changes the flex amount when in full browser mode */
+@media (min-width: 1500px){
+    .col-xl-2 {
+        flex: 0 0 10.666667%;
+        max-width: 16.6666666667%;
+    }
+}
+
+
+
+
+/*                                          Show page                                    */
+
+
+
+
+
+
+
+/* Remove margin from admin options */
+button.admin-cog{
+    margin-left:0px!important;
+    }
+
+/* Set the background for the season/episode selector */
+.mat-table, .mat-paginator {
+    background: #bd262600 !important;}
+
+/* Fixes for the play on plex button, changing size and alignment */
+I[class*="far fa-play-circle fa-2x"]{
+    font-size: 1.5em!important;
+    }
+I[class*="fa-cloud-download-alt"]{
+    vertical-align: baseline !important;
+    }
+
+/* Colour settings for various buttons */
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+    background-color: #62d2fa !important;
+}
+ 
+button[id*="reportIssueBtn"] {
+background-color: darksalmon;
+}
+button[id*="requestBtn"] {
+background-color: #58c8f0 !important;
+}
+button[id*="requestedBtn"] {
+background-color: #e8c964 !important;
+}
+    
+button[id*="markAvailableBtn"] {
+color: #ffffff !important;
+background-color: #6adaab !important;
+}
+    
+button[id*="markUnavailableBtn"] {
+color: #ffffff !important;
+background-color: #f44336!important;
+}
+button[id*="markUnavailable4kBtn"] {
+color: #ffffff !important;
+background-color: #f44336!important;
+}
