@@ -1,5 +1,4 @@
 
-
 .ombi-card:hover {
     transform: translateY(-5px);
     }
@@ -10,6 +9,8 @@
     }
     
     .discover-filter-buttons-group{
+background: #0f171f00!important;
+border: 1px solid #ffffff26!important;
     transition: all 1250ms;
         -webkit-animation: text-blur-out-partial 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
                 animation: text-blur-out-partial 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
@@ -632,8 +633,7 @@ opacity: .6!important;
      
     .sidenav-container .sidenav .active-list-item {
      
-        border-radius: 0 0px 0px 0 !important;
-     
+border-radius: 0 30px 30px 0;     
     }
      
     
@@ -786,12 +786,14 @@ opacity: .6!important;
      margin-top: 15px!important;
     color: #a8a6f2;
        font-size: 30px!important;
+margin-bottom: 10px;
     }
     
     #main-container\ dark > mat-sidenav-container > mat-sidenav-content > ng-component > div > div:nth-child(3) > h2 {
     margin-top: 15px!important;
     color: #a6e5f2;
         font-size: 30px!important;
+margin-bottom: 10px;
     }
     
     .p-carousel-items-container {
@@ -802,6 +804,7 @@ opacity: .6!important;
     margin-top: 15px!important;
         font-size: 30px!important;
     color: #a6f2ab;
+margin-bottom: 10px;
     }
     
     /* Raise the discovery carosuel options */
@@ -816,7 +819,9 @@ opacity: .6!important;
     
     /* Fade out the carousel to the right side */
     div[class*="p-carousel-items-content"]{
-        -webkit-mask-box-image: linear-gradient(90deg,black,black 85%,transparent);
+padding-bottom: 5px;
+padding-left: 15px;
+        -webkit-mask-box-image: linear-gradient(90deg,transparent,black 1%,black 85%,transparent);
         }
     /* Tigthen the carousel flex for less spacing */
     
