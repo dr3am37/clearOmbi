@@ -1,5 +1,69 @@
-.ombi-card:hover > div > .top-left {
-
+.discover-filter-buttons-group:hover {
+    -webkit-animation: text-blur-in-partial  0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+                animation: text-blur-in-partial  0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+    
+    .discover-filter-buttons-group{
+    transition: all 1250ms;
+        -webkit-animation: text-blur-out-partial 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+                animation: text-blur-out-partial 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+    }
+    
+    @-webkit-keyframes text-blur-in-partial {
+      0% {
+    -webkit-filter: opacity(30%);
+                filter: opacity(30%);
+      }
+      100% {
+        -webkit-filter:opacity(100%);
+                filter: opacity(100%);
+    
+      }
+    }
+    @keyframes text-blur-in-partial  {
+      0% {
+    -webkit-filter: opacity(30%);
+                filter: opacity(30%);
+      }
+      100% {
+        -webkit-filter: opacity(100%);
+                filter: opacity(100%);
+      }
+    }
+    
+    
+    @-webkit-keyframes text-blur-out-partial  {
+      0% {
+      }
+      100% {
+        -webkit-filter:opacity(30%);
+                filter: opacity(30%);
+    
+      }
+    }
+    @keyframes text-blur-out-partial  {
+      0% {
+      }
+      100% {
+        -webkit-filter: opacity(30%);
+                filter: opacity(30%);
+      }
+    }
+    
+    textarea[id*="mat-input-5"]{
+    height: 1000px;
+    }
+    
+    
+    #main-container\ dark > mat-sidenav-container > mat-sidenav-content > ng-component > settings-menu {
+    display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .ombi-card:hover > div > .top-left {
+    
     -webkit-animation: text-blur-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
                 animation: text-blur-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     }
@@ -259,6 +323,8 @@
     
     
     /* Nav Bar */
+    
+    
     
     /* Nav Bar hidden mod */
     #info-wrapper .sidebar-poster {
