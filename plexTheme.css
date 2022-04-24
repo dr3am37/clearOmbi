@@ -1,6 +1,14 @@
 /* white theme */
 /* Color setting for the selected menu button */
+#info-wrapper {
+    transform: translateY(-307px);
+    margin-top: -15% !important;
+}
+.alert div, .alert span{
+    color: black !important;
+}
 #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-2 > mat-card > mat-card-content > movie-information-panel > div > div.rating.medium-font > span{    color: #f2ab13;
+    color: #f2ab13;
 
 }
 #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(2) > div > cast-carousel > mat-card > mat-card-header{
@@ -42,17 +50,13 @@ img[mattooltip*="Trakt"] {
     -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
                 animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         background-color: #0000!important;
+        -webkit-mask-image: linear-gradient(180deg, black,black,black, transparent 92%);
         }
-#summary-wrapper .full-screenshot, .summary-wrapper .full-screenshot, #watching-wrapper .full-screenshot, .hero-wrapper .full-screenshot, #statics-top-wrapper .full-screenshot {
-    height: 100%!important;
-    
-    position: fixed!important;
 
-}
 .full-screenshot.enabled.overlay{
     backdrop-filter: blur(85px);
-    -webkit-mask-image: radial-gradient(circle at 76% -8%, transparent, transparent, black 40%);
-    background-image: radial-gradient(circle at top right, transparent,transparent, #171620 73%)!important;
+    -webkit-mask-image: radial-gradient(circle at 76% 5%, transparent, transparent, black 50%);
+    background-image: radial-gradient(circle at top right, transparent,transparent, #17162078 88%)!important;
     -webkit-animation: blur-overlay 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s both;
                 animation: blur-overlay 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s both;
 
@@ -110,8 +114,8 @@ h3, .h3 {
 
 @media (max-width: 571px){
     .title-top-banner{
-        top: 150px!important;
-    padding-left: 30%!important;
+        top: 300px!important;
+        padding-left: 30%!important;
     }
 }
 .grow:hover {
@@ -129,6 +133,7 @@ h3, .h3 {
     margin-bottom: 0px!important;
 }
 div[class*="mobile-top-text"] {
+    transform: translateY(-130px);
     text-align-last: left;
     /* filter: drop-shadow(0px 0px 2px black); */
     padding: 10px;
@@ -876,7 +881,7 @@ border: 1px solid #dcded226!important;
      
     #summary-wrapper, .summary-wrapper {
      
-        height: 700px !important;
+        height: 1000px !important;
      
     }
     .fa-dollar-sign:before {
@@ -897,9 +902,7 @@ border: 1px solid #dcded226!important;
         top: -104px;
     }
      
-    #info-wrapper {
-        margin-top: -15% !important;
-    }
+
     /* 
     #summary-wrapper .summary .container, .summary-wrapper .summary .container {
         position: absolute;
@@ -1061,7 +1064,7 @@ border: 1px solid #dcded226!important;
         
     /* background color to cascading request menu */
 div[class*="mat-menu-panel ng-trigger ng-trigger-transformMenu"] {
-    background: none;
+    background: #282a2d;
 
     min-width: 164px!important;
     /* background-color: #bfbfbf!important; */
