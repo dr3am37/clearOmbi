@@ -1,6 +1,8 @@
 /* white theme */
 /* Color setting for the selected menu button */
-
+.viewon-btn.plex{
+    background-color: #282a2de8;
+}
 I[class*="fa-cloud-download-alt"]{
     vertical-align: baseline !important;
     color: #f2ab13;
@@ -521,10 +523,10 @@ border: 1px solid #dcded226!important;
     }
     
 
-    
+
     .viewon-btn.plex:hover{
     filter: drop-shadow(0px 0px 6px #f2ab13);
-    background-color: #282a2de8;
+    
     
     }
     .sidenav-container .sidenav{
