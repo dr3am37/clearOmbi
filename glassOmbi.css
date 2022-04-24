@@ -776,11 +776,11 @@ border-radius: 0 30px 30px 0;
         
         
     /* background color to cascading request menu */
-    div[class*="mat-menu-panel ng-trigger ng-trigger-transformMenu"] {
-    
-    min-width: 168px!important;
-        background-color: #0f171f!important;
-        }
+div[class*="mat-menu-panel ng-trigger ng-trigger-transformMenu"] {
+    background: none!important;
+    min-width: 164px!important;
+    /* background-color: #bfbfbf!important; */
+}
     
     /* Smaller middle container width */
     .small-middle-container {
