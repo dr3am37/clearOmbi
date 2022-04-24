@@ -184,6 +184,11 @@ div[class*="mobile-top-text"] {
 .mat-option.mat-active {
     color: #dcded2 !important;
 }
+/* search query color */
+.mat-form-field {
+    color: #f2ab13;
+}
+
 /* search text color */
 .mat-form-field-appearance-legacy .mat-form-field-label{
     color:#f2ab1365;
