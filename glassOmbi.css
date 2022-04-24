@@ -312,7 +312,7 @@ opacity: .6!important;
     background-size: cover;
     }
     .sidenav-container .sidenav {
-        background: transparent!important;
+        background: #0000003b!important;
     }
     .content-container{
         background: transparent!important;
@@ -351,6 +351,8 @@ opacity: .6!important;
     transform: translateX(-205px)!important;
     backdrop-filter: blur(10px);
         -webkit-mask-image: linear-gradient(180deg, black 50%, transparent);
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
     @media (max-width: 959px){
     .sidenav-container .sidenav {
@@ -461,7 +463,11 @@ opacity: .6!important;
                 transform: translateX(205px);
       }
     }
-    
+    .card-spacer{
+
+        padding-top: 1.5%!important;
+        padding-left: 1%!important;
+    }
     /* Nav Bar end */
     
     
@@ -538,7 +544,7 @@ opacity: .6!important;
     -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
                 animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         background-color: #0000!important;
-        -webkit-mask-image: linear-gradient(180deg, transparent, black,black, transparent)!important;
+        -webkit-mask-image: linear-gradient(180deg,transparent, black 11%,black, transparent)!important;    
     }
     
     
@@ -783,14 +789,14 @@ border-radius: 0 30px 30px 0;
     
     /* Change margins for the h2 headers, !!!!! might effect other h2 headers negatively */
     #main-container\ dark > mat-sidenav-container > mat-sidenav-content > ng-component > div > div:nth-child(2) > h2 {
-     margin-top: 15px!important;
+     margin-top: 10px!important;;
     color: #a8a6f2;
        font-size: 30px!important;
 margin-bottom: 10px;
     }
     
     #main-container\ dark > mat-sidenav-container > mat-sidenav-content > ng-component > div > div:nth-child(3) > h2 {
-    margin-top: 15px!important;
+    margin-top: 10px!important;;
     color: #a6e5f2;
         font-size: 30px!important;
 margin-bottom: 10px;
@@ -801,7 +807,7 @@ margin-bottom: 10px;
     }
     
     #main-container\ dark > mat-sidenav-container > mat-sidenav-content > ng-component > div > div:nth-child(4) > h2 {
-    margin-top: 15px!important;
+    margin-top: 10px!important;;
         font-size: 30px!important;
     color: #a6f2ab;
 margin-bottom: 10px;
@@ -828,14 +834,13 @@ padding-left: 15px;
         
     
     /* Make the cards smaller !!!!! this has an effect on the search results that also have the card class */
-    .ombi-card{
-    transition: all 1s;
-    margin-top: 14px;
-    max-width: 166px !important;
-        max-height: 259px!important;
+    .ombi-card {
+        transition: all 1s;
+        max-width: 164px !important;
+        max-height: 248px!important;
         padding-right: 0px!important;
         padding-left: 0px!important;
-    margin-top: 20px!important
+        margin-top: 26px!important;
     }
     
     
