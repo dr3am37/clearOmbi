@@ -55,19 +55,19 @@ h3, .h3 {
 }
 div[class*="mobile-top-text"] {
     text-align-last: left;
-    background: #ffffff6e;
-    backdrop-filter: blur(7px);
-    /* filter: drop-shadow(0px 0px 2px black); */
-    box-shadow: 0px 0 7px 2px #00000087;
-    border-radius: 15px;
-    padding: 10px;
+    /* background: #ffffff6e; */
+    /* backdrop-filter: blur(7px); */
+    filter: drop-shadow(0px 0px 2px black);
+    /* box-shadow: 0px 0 7px 2px #00000087; */
+    /* border-radius: 15px; */
+    /* padding: 10px; */
     margin-top: 42px;
 }
 .mat-h2, .mat-headline, .mat-typography h2 {
-    color: black;
+    color: rgb(239, 239, 239);
 }
 .mat-h1, .mat-headline, .mat-typography h1 {
-    color: black;
+    color: rgb(239, 239, 239);
 }
 
 .mat-dialog-container {
