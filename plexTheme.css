@@ -1,5 +1,14 @@
 /* white theme */
 /* Color setting for the selected menu button */
+
+I[class*="fa-cloud-download-alt"]{
+    vertical-align: baseline !important;
+    color: #f2ab13;
+    }
+.ombi-card .button-request-container .button-request {
+    color: #f2ab13;
+}
+
 #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(1) > div > mat-card{
     width: fit-content;
     background: #282a2d!important;
@@ -166,7 +175,7 @@ div[class*="mobile-top-text"] {
     /* Adjusting request buttons color and design, height and text alignment */
     
     .btn-ombi {
-        background-color: #f2ab13 !important;
+        background-color: #282a2d  !important;
         /* border-radius: 10px; */
         border-bottom-right-radius: 15px !important;
         border-bottom-left-radius: 15px !important;
@@ -1171,9 +1180,7 @@ padding-left: 15px;
     I[class*="far fa-play-circle fa-2x"]{
         font-size: 1.5em!important;
         }
-    I[class*="fa-cloud-download-alt"]{
-        vertical-align: baseline !important;
-        }
+
     
     /* Colour settings for various buttons */
      
