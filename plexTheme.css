@@ -942,6 +942,7 @@ border: 1px solid #dcded226!important;
 
      @media (min-width: 571px){
      .title-top-banner {
+        padding-left: 350px!important;
          top: 50%!important;
         }
     }
