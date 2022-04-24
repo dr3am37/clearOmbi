@@ -20,6 +20,8 @@ I[class*="fa-cloud-download-alt"]{
     background: #282a2d!important;
 }
 #info-wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
     transform: translateY(-307px);
     margin-top: -15% !important;
 }

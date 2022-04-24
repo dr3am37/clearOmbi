@@ -587,6 +587,8 @@ opacity: .6!important;
     }
      
     #info-wrapper {
+        margin-left: 30px;
+        margin-right: 30px;
         margin-top: -15% !important;
     }
     /* 
