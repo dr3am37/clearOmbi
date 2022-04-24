@@ -302,12 +302,6 @@ margin-bottom: 10px;
     padding-left: 1%!important;
 }
 
-.sidenav-container .sidenav .mat-toolbar.application-name {
-    content: url("https://i.imgur.com/mBh7whU.png"); 
-}
-button#sign-in{
-   display:none;
-}
 
 .ombi-card:hover {
     transform: translateY(-5px);
