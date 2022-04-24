@@ -213,34 +213,33 @@ opacity: 1!important;
     }
 /* Change margins for the h2 headers, !!!!! might effect other h2 headers negatively */
 #main-container\ dark > mat-sidenav-container > mat-sidenav-content > ng-component > div > div:nth-child(2) > h2 {
-margin-top: 15px!important;
+margin-top: 10px!important;;
 color: #0000009e;
 font-size: 30px!important;
 margin-bottom: 10px;
 }
     
     #main-container\ dark > mat-sidenav-container > mat-sidenav-content > ng-component > div > div:nth-child(3) > h2 {
-    margin-top: 15px!important;
+    margin-top: 10px!important;;
 color: #0000009e;
         font-size: 30px!important;
 margin-bottom: 10px;
     }
 #main-container\ dark > mat-sidenav-container > mat-sidenav-content > ng-component > div > div:nth-child(4) > h2 {
-    margin-top: 15px!important;
+    margin-top: 10px!important;;
         font-size: 30px!important;
 color: #0000009e;
 margin-bottom: 10px;
     }
 /* end theme */
 
+.card-spacer{
+
+    padding-top: 1.5%!important;
+    padding-left: 1%!important;
+}
 
 
-.sidenav-container .sidenav .mat-toolbar.application-name {
-    content: url("https://i.imgur.com/mBh7whU.png"); 
-}
-button#sign-in{
-   display:none;
-}
 
 .ombi-card:hover {
     transform: translateY(-5px);
@@ -579,7 +578,13 @@ border: 1px solid #ffffff26!important;
     transform: translateX(-205px)!important;
     backdrop-filter: blur(10px);
         -webkit-mask-image: linear-gradient(180deg, black 50%, transparent);
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: solid;
+        border-width: 1px;
+        border-color: #959494;
     }
+    
     @media (max-width: 959px){
     .sidenav-container .sidenav {
        transform:translateX(0px)!important;
