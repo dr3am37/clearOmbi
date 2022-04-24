@@ -607,6 +607,7 @@ opacity: .6!important;
     }
      @media (min-width: 571px){
      .title-top-banner {
+        padding-left: 35px!important;
          top: 50%!important;
         }
     }
