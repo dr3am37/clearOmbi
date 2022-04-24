@@ -1,5 +1,13 @@
 /* white theme */
 /* Color setting for the selected menu button */
+#info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(1) > div > mat-card{
+    width: fit-content;
+    background: #282a2d!important;
+
+}
+#info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-2 > mat-card{
+    background: #282a2d!important;
+}
 #info-wrapper {
     transform: translateY(-307px);
     margin-top: -15% !important;
@@ -232,7 +240,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
 }
 #info-wrapper .mat-card, .mat-expansion-panel {
     box-shadow: none!important;
-    background: #282a2d3b!important;
+    background: #282a2d00!important;
     backdrop-filter: blur(1px) !important;
     border-radius: 15px;
     color: #dcded2!important;
