@@ -1,5 +1,19 @@
 /* white theme */
 /* Color setting for the selected menu button */
+table.mat-table {
+    box-shadow: none;
+}
+.mat-tab-body-content {
+    height: 900px!important;
+}
+.main-content-container {
+    height: 2000px;
+}
+@media (max-width: 1800px){
+    .main-content-container {
+        height: fit-content!important;
+    }
+    }
 .mat-flat-button.mat-accent, .mat-raised-button.mat-accent, .mat-fab.mat-accent, .mat-mini-fab.mat-accent {
     color: #1b242f;
     background-color: #f2ab13;
