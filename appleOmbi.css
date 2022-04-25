@@ -1324,9 +1324,6 @@ padding-left: 15px;
                     margin: 55px;
         text-align-last: center!important;
                 }
-                .row{
-                    display: block!important;
-                }
                 .col-12 {
                     height: fit-content;
                 }
