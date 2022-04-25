@@ -1273,9 +1273,8 @@ padding-left: 15px;
             transform: translateX(-49px)!important;
 text-align-last: center!important;
         }
-        .row {
-            justify-content: space-around;
-            align-items: center;
+        #info-wrapper > div.small-middle-container > div:nth-child(3) {
+            display: block;
         }
         #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 {
             justify-content: center;
@@ -1289,17 +1288,13 @@ text-align-last: center!important;
             width: 100%!important;
         }
         .full-screenshot.enabled.overlay {
-                    
+                
             -webkit-mask-image: radial-gradient(circle at 87% 13%, transparent, transparent, black 33%);
         }
         }
         
     
         @media (max-width: 681px){
-            .full-screenshot.enabled.overlay {
-                    
-                -webkit-mask-image: radial-gradient(circle at 87% 13%, transparent, transparent, black 33%);
-            }
             .media-row {
                 position: relative!important;
             }
@@ -1311,8 +1306,11 @@ text-align-last: center!important;
             height: fit-content!important;
             overflow: hidden!important;
             padding-bottom: 10px;
-            
             }
+            #info-wrapper > div.small-middle-container > div:nth-child(3) {
+                display: block;
+            }
+            
             .mat-card {
                 width: 100%!important;;
             }
@@ -1337,7 +1335,7 @@ text-align-last: center!important;
             }
             .full-screenshot.enabled.overlay {
                 
-                -webkit-mask-image: radial-gradient(circle at 81% 31%, transparent, transparent, black 28%);
+                -webkit-mask-image: radial-gradient(circle at 87% 13%, transparent, transparent, black 33%);
             }
             .container-sm, .container {
                 max-width: 100%;
@@ -1348,14 +1346,3 @@ text-align-last: center!important;
                 top:0px!important;
             }
             }
-
-            @media (max-width: 1300px){
-                
-                .row{
-                    display: flex;
-                flex-wrap: nowrap;
-                flex-direction: row;
-                }
-
-                
-                }
