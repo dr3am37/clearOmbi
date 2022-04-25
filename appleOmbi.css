@@ -1,5 +1,12 @@
 /* white theme */
 /* search query color */
+.mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+    background-color: #4b4b4b!important;
+}
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb
+{
+    background-color: #000000!important;
+}
 #advancedOptionsTitle{
     color:black;
 }
