@@ -1254,95 +1254,55 @@ padding-left: 15px;
     }
 
 
-    @media (max-width: 412px){
+    @media (max-width: 767px){
+        .media-row {
+            position: relative!important;
+        }
+        .small-middle-container {
+            width: 100%!important;
+        }
         #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(4) > div > mat-accordion > mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"] > div > div {
-            display: block!important;
         width: 100%!important;
-        height: 400px!important;
+        height: fit-content!important;
         overflow: hidden!important;
         padding-bottom: 10px;
-        
-        }
-        .mat-card {
-            width: 217px!important;;
-        }
-        .social-icons-container-inner {
-            width: fit-content;
-        }
-        div[class*="mobile-top-text"]{
-            transform: translateX(-49px)!important;
-text-align-last: center!important;
         }
         #info-wrapper > div.small-middle-container > div:nth-child(3) {
             display: block;
         }
-        #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 {
-            justify-content: center;
-            align-items: center;
+        
+        .mat-card {
+            width: 100%!important;;
+        }
+        div[class*="mobile-top-text"]{
+            transform: translate(0px,100px)!important;
+            text-align-last: center!important;
+            margin: 55px;
+text-align-last: center!important;
+        }
+        .col-12 {
+            height: fit-content;
+        }
+        #info-wrapper > div.small-middle-container > div:nth-child(2) {
+            display: block;
         }
         #info-wrapper {
             margin-top: -20% !important;
         }
-        .mat-accordion .mat-expansion-panel:last-of-type {
+        .mat-accordion .mat-expansion-panel {
 
             width: 100%!important;
         }
         .full-screenshot.enabled.overlay {
-                
+            
             -webkit-mask-image: radial-gradient(circle at 87% 13%, transparent, transparent, black 33%);
         }
+        .container-sm, .container {
+            max-width: 100%;
+            padding-right: 0px!important;
+            padding-left: 0px!important;
+            bottom:0px!important;
+            margin-left: 0px!important;
+            top:0px!important;
         }
-        
-    
-        @media (max-width: 681px){
-            .media-row {
-                position: relative!important;
-            }
-            .small-middle-container {
-                width: 100%!important;
-            }
-            #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(4) > div > mat-accordion > mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"] > div > div {
-            width: 100%!important;
-            height: fit-content!important;
-            overflow: hidden!important;
-            padding-bottom: 10px;
-            }
-            #info-wrapper > div.small-middle-container > div:nth-child(3) {
-                display: block;
-            }
-            
-            .mat-card {
-                width: 100%!important;;
-            }
-            div[class*="mobile-top-text"]{
-                transform: translate(0px,100px)!important;
-                text-align-last: center!important;
-                margin: 55px;
-    text-align-last: center!important;
-            }
-            .col-12 {
-                height: fit-content;
-            }
-            #info-wrapper > div.small-middle-container > div:nth-child(2) {
-                display: block;
-            }
-            #info-wrapper {
-                margin-top: -20% !important;
-            }
-            .mat-accordion .mat-expansion-panel {
-
-                width: 100%!important;
-            }
-            .full-screenshot.enabled.overlay {
-                
-                -webkit-mask-image: radial-gradient(circle at 87% 13%, transparent, transparent, black 33%);
-            }
-            .container-sm, .container {
-                max-width: 100%;
-                padding-right: 0px!important;
-                padding-left: 0px!important;
-                bottom:0px!important;
-                margin-left: 0px!important;
-                top:0px!important;
-            }
-            }
+        }
