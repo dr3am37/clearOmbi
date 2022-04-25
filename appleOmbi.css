@@ -651,7 +651,7 @@ border: 1px solid #ffffff26!important;
     
     
     
-    #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(4) > div > mat-accordion > mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"] > div > div{
+    mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"] > div > div{
         display: flex!important;
         flex-wrap: nowrap!important;
         flex-direction: row!important;
@@ -684,7 +684,7 @@ border: 1px solid #ffffff26!important;
     }
     
     
-    #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(4) > div > mat-accordion > mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"]{
+    mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"]{
         -webkit-mask-image: linear-gradient(90deg, black 80%, transparent);
         visibility: visible !important;
     height: fit-content !important;
@@ -1264,18 +1264,24 @@ padding-left: 15px;
 
         
             @media (max-width: 767px){
+                .real {
+                    border-radius: 5px;
+                }
                 .media-row {
                     position: relative!important;
                 }
                 .small-middle-container {
                     width: 100%!important;
                 }
-                #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(4) > div > mat-accordion > mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"] > div > div {
-                width: 100%!important;
+
+                mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"] > div > div {
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    width: 100%!important;
                 height: fit-content!important;
                 overflow: hidden!important;
                 padding-bottom: 10px;
-                }
+                    }
                 #info-wrapper > div.small-middle-container > div:nth-child(3) {
                     display: block;
                 }
