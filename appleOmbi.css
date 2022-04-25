@@ -1,5 +1,15 @@
+/* fold adjustments theme */
+
+
+/* fold adjustments */
 /* white theme */
 /* search query color */
+.mat-tab-header-pagination-chevron {
+    border-color: #000!important;
+}
+.mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+    border-color: #3a3a3a80;
+}
 .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
     background-color: #4b4b4b!important;
 }
@@ -259,10 +269,10 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
 }
 .mat-card, .mat-expansion-panel {
     background: #0c0404ba !important;
-    border-radius: 15px;
+    border-radius: 15px!important;
     color: #fffffff0!important;
     margin-bottom: 10px;
-    width: fit-content;
+    width: 100%;
 
 }
 #summary-wrapper, .summary-wrapper {
@@ -684,7 +694,7 @@ border: 1px solid #ffffff26!important;
     @media (min-width: 768px){
     .col-md-10 {
         flex: 0 0 94.333333%!important;
-        max-width: 90.333333%!important;
+        max-width: 83.3333333333%!important;
     }
     }
     
@@ -1250,3 +1260,107 @@ padding-left: 15px;
         background-color: #f4433675!important;
         }
 
+        @media (max-width: 412px){
+            #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(4) > div > mat-accordion > mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"] > div > div {
+                display: block!important;
+            width: 100%!important;
+            height: 400px!important;
+            overflow: hidden!important;
+            padding-bottom: 10px;
+            
+            }
+            .mat-card {
+                width: 217px!important;;
+            }
+            .social-icons-container-inner {
+                width: fit-content;
+            }
+            div[class*="mobile-top-text"]{
+                transform: translateX(-49px)!important;
+    text-align-last: center!important;
+            }
+            .row {
+                justify-content: space-around;
+                align-items: center;
+            }
+            #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 {
+                justify-content: center;
+                align-items: center;
+            }
+            #info-wrapper {
+                margin-top: -20% !important;
+            }
+            .mat-accordion .mat-expansion-panel:last-of-type {
+
+                width: 100%!important;
+            }
+            .full-screenshot.enabled.overlay {
+                
+                -webkit-mask-image: radial-gradient(circle at 81% 31%, transparent, transparent, black 28%);
+            }
+            }
+            
+        
+            @media (max-width: 681px){
+                .media-row {
+                    position: relative!important;
+                }
+                .small-middle-container {
+                    width: 100%!important;
+                }
+                #info-wrapper > div.small-middle-container > div:nth-child(2) > div.col-12.col-md-10 > div:nth-child(4) > div > mat-accordion > mat-expansion-panel[class*="mat-expansion-panel"] > div[role*="region"] > div > div {
+                width: 100%!important;
+                height: fit-content!important;
+                overflow: hidden!important;
+                padding-bottom: 10px;
+                
+                }
+                .mat-card {
+                    width: 100%!important;;
+                }
+                div[class*="mobile-top-text"]{
+                    transform: translate(0px,100px)!important;
+                    text-align-last: center!important;
+                    margin: 55px;
+        text-align-last: center!important;
+                }
+                .row{
+                    display: block!important;
+                }
+                .col-12 {
+                    height: fit-content;
+                }
+                #info-wrapper > div.small-middle-container > div:nth-child(2) {
+                    display: block;
+                }
+                #info-wrapper {
+                    margin-top: -20% !important;
+                }
+                .mat-accordion .mat-expansion-panel {
+    
+                    width: 100%!important;
+                }
+                .full-screenshot.enabled.overlay {
+                    
+                    -webkit-mask-image: radial-gradient(circle at 81% 31%, transparent, transparent, black 28%);
+                }
+                .container-sm, .container {
+                    max-width: 100%;
+                    padding-right: 0px!important;
+                    padding-left: 0px!important;
+                    bottom:0px!important;
+                    margin-left: 0px!important;
+                    top:0px!important;
+                }
+                }
+
+                @media (max-width: 1300px){
+                    
+                    .row{
+                        display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: row;
+                    }
+
+                    
+                    }
