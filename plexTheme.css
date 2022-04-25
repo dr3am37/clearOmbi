@@ -1289,13 +1289,17 @@ text-align-last: center!important;
             width: 100%!important;
         }
         .full-screenshot.enabled.overlay {
-            
-            -webkit-mask-image: radial-gradient(circle at 81% 31%, transparent, transparent, black 28%);
+                    
+            -webkit-mask-image: radial-gradient(circle at 87% 13%, transparent, transparent, black 33%);
         }
         }
         
     
         @media (max-width: 681px){
+            .full-screenshot.enabled.overlay {
+                    
+                -webkit-mask-image: radial-gradient(circle at 87% 13%, transparent, transparent, black 33%);
+            }
             .media-row {
                 position: relative!important;
             }
