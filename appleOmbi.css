@@ -4,6 +4,7 @@
 /* fold adjustments */
 /* white theme */
 /* search query color */
+
 .mat-tab-header-pagination-chevron {
     border-color: #000!important;
 }
@@ -24,7 +25,7 @@ table.mat-table {
     box-shadow: none;
 }
 .mat-card {
-    width: 100%;
+    width: 100%!important;
 }
 div[class*="row justify-content-md-center mat-card mat-card-flat carousel-item ng-star-inserted"]{
     background: #1a232e00 !important;
@@ -35,7 +36,7 @@ div[class*="row justify-content-md-center mat-card mat-card-flat carousel-item n
 }
 }
 .mat-tab-body-content {
-    height: 900px!important;
+    height: 600px!important;
 }
 .main-content-container {
     height: 2000px;
@@ -1294,7 +1295,7 @@ padding-left: 15px;
                 }
                 
                 .mat-card {
-                    width: 100%!important;;
+                    width: 100%!important;
                 }
                 div[class*="mobile-top-text"]{
                     transform: translate(0px,100px)!important;

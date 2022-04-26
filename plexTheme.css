@@ -1,10 +1,13 @@
 /* white theme */
 /* Color setting for the selected menu button */
+.mat-card {
+    width: 100%!important;
+}
 table.mat-table {
     box-shadow: none;
 }
 .mat-tab-body-content {
-    height: 900px!important;
+    height: 600px!important;
 }
 .main-content-container {
     height: 2000px;
@@ -1282,7 +1285,7 @@ padding-left: 15px;
         }
         
         .mat-card {
-            width: 100%!important;;
+            width: 100%!important;
         }
         div[class*="mobile-top-text"]{
             transform: translate(0px,100px)!important;
