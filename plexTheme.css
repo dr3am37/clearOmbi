@@ -1253,7 +1253,14 @@ padding-left: 15px;
     background-color: #f44336!important;
     }
 
-
+    .ombi-card:hover > img[src*="default_tv_poster.png"]+div + div{
+        opacity: 1!important;
+    }
+    img[src*="default_tv_poster.png"]+div + div{
+        top: -13px;;
+        opacity: 0 !important;
+    
+    }
     @media (max-width: 767px){
         .real {
             border-radius: 5px;
